@@ -1,0 +1,88 @@
+{
+  // --- FLOW ---
+
+  // Use flow from node_modules.
+  "flow.useNPMPackagedFlow": true,
+
+  // --- VIM ---
+
+  // Enable easymotion.
+  "vim.easymotion": true,
+
+  // Delegate keybindings to be handled by VSCode instead of by Vim plugin.
+  "vim.handleKeys": {
+      "<C-q>": false,
+  },
+
+  // Yank to the system clipboard by default.
+  "vim.useSystemClipboard": true,
+
+  // --- JEST ---
+
+  // Don't show annoying code lens for Jest either.
+  "jest.debugCodeLens.showWhenTestStateIn": [
+  ],
+
+  // --- TODO HIGHLIGHT ---
+  "todohighlight.keywords": [
+    "TODO:", "NOTE:", "HACK:",
+  ],
+
+  // --- EDITOR ---
+
+  // Controls the font family.
+  "editor.fontFamily": "Input Mono Narrow, monospace",
+
+  // Don't validate js or ts.
+  "javascript.validate.enable": false,
+  // "typescript.validate.enable": false,
+
+  // Color theme.
+  "workbench.colorTheme": "Night Owl No Italics",
+
+  // Trim whitespace, but not for markdown.
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+      "files.trimTrailingWhitespace": false,
+  },
+
+  // No hints.
+  "editor.parameterHints": false,
+
+  // No suggestions.
+  "typescript.autoImportSuggestions.enabled": false,
+
+  // Don't send telemetry.
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+
+  // Don't use this window.
+  "explorer.openEditors.visible": 0,
+
+  // Automate formatting.
+  "files.insertFinalNewline": true,
+
+  // Who uses a mouse anyways?
+  "editor.dragAndDrop": false,
+
+  // Don't recommend.
+  "extensions.ignoreRecommendations": true,
+  "extensions.showRecommendationsOnlyOnDemand": true,
+
+  // Don't force me 'keep open'.
+  "workbench.editor.enablePreview": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "window.zoomLevel": 0,
+
+  // Use SCSS to reduce errors in linting CSS.
+  "files.associations": {
+    "*.css": "scss"
+  },
+
+  // FSharp
+  "FSharp.lineLens.enabled": "replaceCodeLens",
+  "FSharp.lineLens.prefix": "  : ",
+
+  // Disable annoying code lens.
+  "editor.codeLens": false,
+}
