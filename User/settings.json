@@ -4,6 +4,13 @@
   // Use flow from node_modules.
   "flow.useNPMPackagedFlow": true,
 
+  // --- ESLINT ---
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html"
+  ],
+
   // --- VIM ---
 
   // Enable easymotion.
@@ -85,4 +92,5 @@
 
   // Disable annoying code lens.
   "editor.codeLens": false,
+  "editor.renderWhitespace": "all",
 }

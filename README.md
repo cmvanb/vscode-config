@@ -3,8 +3,7 @@
 ## Synchronize keybindings, snippets and settings
 ```
 cd scripts\
-setup-vscode-config.bat
-install-vscode-extensions.bat
+symlink-user-dir.bat
 ```
 
 ## Install repository extensions in local VSCode
