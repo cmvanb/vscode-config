@@ -32,7 +32,21 @@
 
   // --- TODO HIGHLIGHT ---
   "todohighlight.keywords": [
-    "TODO:", "NOTE:", "HACK:",
+    {
+      "text": "TODO:",
+      "color": "#ffffff",
+      "backgroundColor": "#0f77ff",
+    },
+    {
+      "text": "NOTE:",
+      "color": "#111111",
+      "backgroundColor": "#f0c020",
+    },
+    {
+      "text": "HACK:",
+      "color": "#ffdd00",
+      "backgroundColor": "#ff2020",
+    },
   ],
 
   // --- EDITOR ---
