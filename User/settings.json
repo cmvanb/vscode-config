@@ -35,16 +35,19 @@
     {
       "text": "TODO:",
       "color": "#ffffff",
+      "fontWeight": "900",
       "backgroundColor": "#0f77ff",
     },
     {
       "text": "NOTE:",
       "color": "#111111",
-      "backgroundColor": "#f0c020",
+      "fontWeight": "900",
+      "backgroundColor": "#ffdd00",
     },
     {
       "text": "HACK:",
       "color": "#ffdd00",
+      "fontWeight": "900",
       "backgroundColor": "#ff2020",
     },
   ],

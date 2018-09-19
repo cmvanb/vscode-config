@@ -103,5 +103,15 @@
         "key": "ctrl+k ctrl+f",
         "command": "-editor.action.formatSelection",
         "when": "editorHasSelection && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+/",
+        "command": "editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+a",
+        "command": "-editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
     }
 ]
