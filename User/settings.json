@@ -110,4 +110,13 @@
   // Disable annoying code lens.
   "editor.codeLens": false,
   "editor.renderWhitespace": "all",
+  "files.autoSave": "afterDelay",
+  "workbench.tips.enabled": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "csharp.referencesCodeLens.enabled": false,
+  "csharp.testsCodeLens.enabled": false,
+  "merge-conflict.codeLens.enabled": false,
+  "editor.quickSuggestionsDelay": 30,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
 }
