@@ -35,16 +35,19 @@
     {
       "text": "TODO:",
       "color": "#ffffff",
+      "fontWeight": "900",
       "backgroundColor": "#0f77ff",
     },
     {
       "text": "NOTE:",
       "color": "#111111",
-      "backgroundColor": "#f0c020",
+      "fontWeight": "900",
+      "backgroundColor": "#ffdd00",
     },
     {
       "text": "HACK:",
       "color": "#ffdd00",
+      "fontWeight": "900",
       "backgroundColor": "#ff2020",
     },
   ],
@@ -107,4 +110,12 @@
   // Disable annoying code lens.
   "editor.codeLens": false,
   "editor.renderWhitespace": "all",
+  "workbench.tips.enabled": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "csharp.referencesCodeLens.enabled": false,
+  "csharp.testsCodeLens.enabled": false,
+  "merge-conflict.codeLens.enabled": false,
+  "editor.quickSuggestionsDelay": 30,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
 }
