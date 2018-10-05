@@ -1,3 +1,5 @@
+call code --install-extension andyyaldoo.vscode-json
+call code --install-extension ChaunceyKiwi.json-tree-view
 call code --install-extension CoenraadS.bracket-pair-colorizer
 call code --install-extension dbaeumer.vscode-eslint
 call code --install-extension eg2.tslint
