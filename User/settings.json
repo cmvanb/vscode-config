@@ -24,12 +24,6 @@
   // Yank to the system clipboard by default.
   "vim.useSystemClipboard": true,
 
-  // --- JEST ---
-
-  // Don't show annoying code lens for Jest either.
-  "jest.debugCodeLens.showWhenTestStateIn": [
-  ],
-
   // --- TODO HIGHLIGHT ---
   "todohighlight.keywords": [
     {
@@ -59,7 +53,6 @@
 
   // Don't validate js or ts.
   "javascript.validate.enable": false,
-  // "typescript.validate.enable": false,
 
   // Color theme.
   "workbench.colorTheme": "Night Owl No Italics",
@@ -69,12 +62,6 @@
   "[markdown]": {
       "files.trimTrailingWhitespace": false,
   },
-
-  // No hints.
-  "editor.parameterHints": false,
-
-  // No suggestions.
-  "typescript.autoImportSuggestions.enabled": false,
 
   // Don't send telemetry.
   "telemetry.enableTelemetry": false,
@@ -93,10 +80,9 @@
   "extensions.ignoreRecommendations": true,
   "extensions.showRecommendationsOnlyOnDemand": true,
 
-  // Don't force me 'keep open'.
+  // Don't force 'keep open'.
   "workbench.editor.enablePreview": false,
   "workbench.startupEditor": "newUntitledFile",
-  "window.zoomLevel": 0,
 
   // Use SCSS to reduce errors in linting CSS.
   "files.associations": {
@@ -118,4 +104,7 @@
   "editor.quickSuggestionsDelay": 30,
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
+
+  // C# & Omnisharp
+  "omnisharp.path": "latest",
 }
