@@ -9,10 +9,6 @@
         "command": "-workbench.action.closeActiveEditor"
     },
     {
-        "key": "ctrl+k ctrl+w",
-        "command": "-workbench.action.closeAllEditors"
-    },
-    {
         "key": "ctrl+q",
         "command": "-workbench.action.quickOpenView"
     },
@@ -155,5 +151,13 @@
         "key": "enter",
         "command": "-acceptSelectedSuggestionOnEnter",
         "when": "acceptSuggestionOnEnter && suggestWidgetVisible && suggestionMakesTextEdit && textInputFocus"
+    },
+    {
+        "key": "ctrl+q ctrl+a",
+        "command": "workbench.action.closeAllEditors"
+    },
+    {
+        "key": "ctrl+q ctrl+o",
+        "command": "workbench.action.closeOtherEditors"
     }
 ]
