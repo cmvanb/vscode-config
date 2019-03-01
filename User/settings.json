@@ -107,4 +107,10 @@
 
   // C# & Omnisharp
   "omnisharp.path": "latest",
+
+  // Whitespace
+  "editor.tabSize": 4,
+  "[json]": {
+    "editor.tabSize": 2,
+  },
 }
