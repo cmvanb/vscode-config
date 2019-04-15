@@ -13,8 +13,14 @@
 
   // --- VIM ---
 
+  // Use jk for file explorer navigation.
+  "workbench.list.keyboardNavigation": "simple",
+
   // Enable easymotion.
   "vim.easymotion": true,
+
+  // Enable camelCaseMotion.
+  "vim.camelCaseMotion.enable": true,
 
   // Delegate keybindings to be handled by VSCode instead of by Vim plugin.
   "vim.handleKeys": {
@@ -48,14 +54,17 @@
 
   // --- EDITOR ---
 
+  // Don't accept suggestions when pressing dot.
+  "editor.acceptSuggestionOnCommitCharacter": false,
+
+  // Enable snippets with tab completion.
+  "editor.tabCompletion": "on",
+
   // Controls the font family.
   "editor.fontFamily": "Input Mono Narrow, monospace",
 
   // Don't validate js or ts.
   "javascript.validate.enable": false,
-
-  // Color theme.
-  "workbench.colorTheme": "Night Owl No Italics",
 
   // Trim whitespace, but not for markdown.
   "files.trimTrailingWhitespace": true,
@@ -113,4 +122,8 @@
   "[json]": {
     "editor.tabSize": 2,
   },
+  "[jsonc]": {
+    "editor.tabSize": 2,
+  },
+  "workbench.colorTheme": "Night Owl (No Italics)",
 }
