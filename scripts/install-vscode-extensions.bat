@@ -16,9 +16,9 @@ call code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 call code --install-extension naumovs.color-highlight
 call code --install-extension oderwat.indent-rainbow
 call code --install-extension Orta.vscode-jest
+call code --install-extension rust-lang.rust
 call code --install-extension sdras.night-owl
 call code --install-extension Unity.unity-debug
 call code --install-extension vscodevim.vim
-call code --install-extension vsmobile.vscode-react-native
 call code --install-extension waderyan.gitblame
 call code --install-extension wayou.vscode-todo-highlight

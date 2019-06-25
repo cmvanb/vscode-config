@@ -110,6 +110,7 @@
   "csharp.referencesCodeLens.enabled": false,
   "csharp.testsCodeLens.enabled": false,
   "merge-conflict.codeLens.enabled": false,
+  "editor.quickSuggestions": false,
   "editor.quickSuggestionsDelay": 30,
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
