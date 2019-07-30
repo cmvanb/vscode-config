@@ -127,4 +127,11 @@
     "editor.tabSize": 2,
   },
   "workbench.colorTheme": "Night Owl (No Italics)",
+  "mssql.connections": [
+    {
+      "connectionString": "Server=(local);Database=BarrierVision;Trusted_Connection=True;",
+      "profileName": "BarrierVision",
+      "password": ""
+    }
+  ],
 }
