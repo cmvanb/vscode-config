@@ -5,7 +5,6 @@ call code --install-extension CoenraadS.bracket-pair-colorizer
 call code --install-extension Compulim.vscode-clock
 call code --install-extension cssho.vscode-svgviewer
 call code --install-extension dbaeumer.vscode-eslint
-call code --install-extension Ionide.Ionide-fsharp
 call code --install-extension k--kato.docomment
 call code --install-extension mauve.terraform
 call code --install-extension ms-mssql.mssql
