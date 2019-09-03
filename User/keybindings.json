@@ -151,5 +151,9 @@
         "key": "enter",
         "command": "-acceptSelectedSuggestionOnEnter",
         "when": "acceptSuggestionOnEnter && suggestWidgetVisible && suggestionMakesTextEdit && textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+q",
+        "command": "workbench.action.closeOtherEditors"
     }
 ]
