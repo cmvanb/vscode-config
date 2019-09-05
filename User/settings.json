@@ -134,4 +134,5 @@
       "password": ""
     }
   ],
+  "workbench.list.automaticKeyboardNavigation": false,
 }
