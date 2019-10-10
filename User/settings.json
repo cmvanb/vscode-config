@@ -95,7 +95,8 @@
 
   // Use SCSS to reduce errors in linting CSS.
   "files.associations": {
-    "*.css": "scss"
+    "*.css": "scss",
+    "*.fnl": "lisp"
   },
 
   // FSharp
